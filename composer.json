@@ -1,8 +1,9 @@
 {
-  "name": "gepur-it/assembly_goals",
-  "description": "Assembly goals module for storage",
+  "name": "gepur-it/base-controller-bundle",
+  "description": "Base controller bundle",
   "type": "symfony-bundle",
   "license": "MIT",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Andrii Yakovlev",
@@ -18,29 +19,22 @@
     "symfony",
     "bundle"
   ],
-  "homepage": "https://github.com/gepur-it/assembly_goals",
+  "homepage": "https://github.com/gepur-it/base-controller-bundle",
   "require": {
     "php": "^7.2",
-    "gepur-it/main_menu": ">=1.0",
-    "symfony/dependency-injection": ">=4.2",
-    "symfony/config": ">=4.2",
-    "gepur-it/base_controller": "^1.0",
-    "gepur-it/access_manager": "^1.0",
-    "gepur-it/one-c-client": "^1.0",
-    "gepur-it/system-socket": "^1.0",
-    "gepur-it/user": "^1.2"
+    "gepur-it/base_controller": ">=1.0.1"
   },
   "require-dev": {
     "phpunit/phpunit": "^7.2"
   },
   "autoload": {
     "psr-4": {
-      "GepurIt\\AssemblyGoalsBundle\\": "src"
+      "GepurIt\\BaseControllerBundle\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "GepurIt\\AssemblyGoalsBundle\\Tests\\": "Tests"
+      "GepurIt\\BaseControllerBundle\\Tests\\": "Tests"
     }
   },
   "minimum-stability": "dev",
